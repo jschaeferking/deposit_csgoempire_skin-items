@@ -91,7 +91,7 @@ Use the app’s **“Options”** menu to hide columns like:
 
 ## 📸 Screenshot
 
-*(Add a screenshot of the GUI in action here if you want)*
+https://github.com/jschaeferking/deposit_csgoempire_skin-items/blob/main/Screenshot%202025-07-01%20at%2002.59.19.png
 
 ---
 
