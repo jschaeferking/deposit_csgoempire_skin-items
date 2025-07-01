@@ -30,7 +30,6 @@ Deze Windows desktop-app helpt je bij:
 ## 🚀 Hoe gebruiken
 
 1. **Download & start** het `.exe` bestand  
-   (bijv. `empire_gui_tool.exe`)  
 2. **Voer je CSGOEmpire API-token** in bij eerste gebruik  
    - Wordt opgeslagen in `config.txt` (verborgen & beschermd)  
 3. **Selecteer een prijsbron** via het dropdownmenu  
@@ -45,7 +44,6 @@ Deze Windows desktop-app helpt je bij:
 
 | Bestand                 | Inhoud                                               |
 |------------------------|------------------------------------------------------|
-| `valid_items_prices.txt` | Alle geldige items met hun prijs in Empire-coins     |
 | `prices_*.txt`           | Marktprijzen (snapshot) van csgo.market per bron     |
 
 ---
@@ -61,7 +59,7 @@ Deze Windows desktop-app helpt je bij:
 ## 🔐 API-token
 
 Je vindt je persoonlijke API-token hier:  
-👉 [https://csgoempire.com/settings](https://csgoempire.com/settings)
+👉 [[https://csgoempire.com/settings](https://csgoempire.com/trading/apikey)]([https://csgoempire.com/settings](https://csgoempire.com/trading/apikey))
 
 Deze wordt automatisch gevraagd & opgeslagen bij eerste opstart.
 
