@@ -1,102 +1,101 @@
-# 🖥️ CSGOEmpire Inventory & Deposit Tool (.exe)
+🖥️ CSGOEmpire Inventory & Deposit Tool
 
-Een krachtige en gebruiksvriendelijke desktoptool om je CSGOEmpire-inventaris te bekijken, te filteren en automatisch te **depositeren** via de officiële API — met live prijzen van csgo.market.
+A powerful and user-friendly desktop tool to view, filter, and automatically deposit your CSGOEmpire inventory via the official API — with live prices from csgo.market.
 
----
+⸻
 
-## 🧾 Over deze tool
+🧾 About this tool
 
-Deze Windows desktop-app helpt je bij:
-- Het laden van je volledige **CSGOEmpire-inventaris**
-- Het vergelijken van prijzen met csgo.market (Instant Sell of Post Auction)
-- Het selecteren en **depositeren van meerdere items**
-- En dit alles via een overzichtelijke **grafische interface (GUI)**
+This Windows desktop app helps you to:
+	•	Load your full CSGOEmpire inventory
+	•	Compare prices with csgo.market (Instant Sell or Post Auction)
+	•	Select and deposit multiple items
+	•	All through a clean and simple graphical interface (GUI)
 
-> ⚙️ Geen installatie nodig. Geen codeerkennis vereist.
+⚙️ No installation required. No coding knowledge needed.
 
----
+⸻
 
-## 🔧 Functies
+🔧 Features
 
-✅ Volledige inventory viewer via CSGOEmpire API  
-✅ Live prijsvergelijking met csgo.market  
-✅ Sorteren en filteren op prijs, coinwaarde, asset ID, enz.  
-✅ Multi-item selectie & automatisch depositen  
-✅ % aanpassing op prijzen (instelbaar via spinbox)  
-✅ API-token wordt veilig opgeslagen in `config.txt`  
+✅ Full inventory viewer via CSGOEmpire API
+✅ Live price comparison with csgo.market
+✅ Sort and filter by price, coin value, asset ID, etc.
+✅ Multi-item selection & automatic deposit
+✅ Adjustable % markup on prices (via spinbox)
+✅ API token securely saved in config.txt
 
----
+⸻
 
-## 🚀 Hoe gebruiken
+🚀 How to use
+	1.	Download & launch the .exe file
+	2.	Enter your CSGOEmpire API token on first use
+	•	Saved in config.txt (hidden & protected)
+	3.	Select a price source from the dropdown
+	•	Instant Sell (USD) or Post Auction (USD)
+	4.	Click Fetch prices & show valid items
+	5.	Select one or more items
+	6.	Click Deposit selected to send them to CSGOEmpire
 
-1. **Download & start** het `.exe` bestand  
-2. **Voer je CSGOEmpire API-token** in bij eerste gebruik  
-   - Wordt opgeslagen in `config.txt` (verborgen & beschermd)  
-3. **Selecteer een prijsbron** via het dropdownmenu  
-   - `Instant Sell (USD)` of `Post Auction (USD)`  
-4. Klik op `Fetch prices & show valid items`  
-5. Selecteer één of meerdere items  
-6. Klik op `Deposit selected` om te verzenden naar CSGOEmpire
+⸻
 
----
+📁 Output files
 
-## 📁 Output bestanden
+File	Contents
+prices_*.txt	Market price snapshots from csgo.market by source
 
-| Bestand                 | Inhoud                                               |
-|------------------------|------------------------------------------------------|
-| `prices_*.txt`           | Marktprijzen (snapshot) van csgo.market per bron     |
 
----
+⸻
 
-## 🛠 Vereisten
+🛠 Requirements
+	•	🪟 Windows 10 or 11
+	•	🌐 Internet connection
+	•	📦 No installation needed (standalone .exe)
 
-- 🪟 Windows 10 of 11  
-- 🌐 Internetverbinding  
-- 📦 Geen installatie nodig (standalone `.exe`)
+⸻
 
----
+🔐 API token
 
-## 🔐 API-token
+You can find your personal API token here:
+👉 https://csgoempire.com/trading/apikey
 
-Je vindt je persoonlijke API-token hier:  
-👉 [[https://csgoempire.com/settings](https://csgoempire.com/trading/apikey)]([https://csgoempire.com/settings](https://csgoempire.com/trading/apikey))
+It will be requested & saved automatically on first launch.
 
-Deze wordt automatisch gevraagd & opgeslagen bij eerste opstart.
+⸻
 
----
+🧪 Troubleshooting
 
-## 🧪 Problemen oplossen
+🟡 I already have a config.txt
 
-### 🟡 Ik heb al een `config.txt`  
-✔️ Geen probleem. De tool hergebruikt die automatisch.
+✔️ No problem. The tool will use it automatically.
 
-### 🔴 Deposit mislukt?
+🔴 Deposit failed?
 
-Controleer of:
-- Het item **niet** in een actieve deposit zit  
-- Je een stabiele **internetverbinding** hebt  
-- De **coinwaarde** correct berekend werd (> 0)
+Check that:
+	•	The item is not in an active deposit
+	•	You have a stable internet connection
+	•	The coin value was calculated correctly (> 0)
 
----
+⸻
 
-## 🧊 Tip
+🧊 Tip
 
-Gebruik het **“Options”**-menu in de app om kolommen te verbergen zoals:
-- Asset IDs  
-- Originele prijs  
-- Suggested price  
-- Coinwaarde  
+Use the app’s “Options” menu to hide columns like:
+	•	Asset IDs
+	•	Original price
+	•	Suggested price
+	•	Coin value
 
----
+⸻
 
-## 📸 Screenshot
+📸 Screenshot
 
-*(Voeg hier een screenshot toe van de GUI in actie als je wil)*
+(Add a screenshot of the GUI in action here if you want)
 
----
+⸻
 
-## 🧑‍💻 Developer
+🧑‍💻 Developer
 
-Gemaakt met ❤️ door [jouw naam of GitHub profiel]
+Made with ❤️
 
----
+⸻
